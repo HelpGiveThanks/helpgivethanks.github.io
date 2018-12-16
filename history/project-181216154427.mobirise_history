@@ -3,7 +3,7 @@
     "name": "Help Give Thanks Research Project",
     "currentPage": "index.html",
     "versionFirst": "4.0.14",
-    "uniqCompNum": 96,
+    "uniqCompNum": 95,
     "versionPublish": "4.8.7",
     "theme": {
       "name": "mobirise4",
@@ -55,7 +55,9 @@
         "url": "https://fonts.googleapis.com/css?family=Berkshire+Swash:400"
       }
     ],
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "publishType": "local",
+    "publishPath": "file:///Users/davidmatson%201/Documents/HelpGiveThanks/helpgivethanks.github.io"
   },
   "pages": {
     "index.html": {
