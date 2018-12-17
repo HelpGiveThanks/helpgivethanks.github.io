@@ -40,7 +40,7 @@
         "#07094c"
       ]
     },
-    "favicon": "@PROJECT_PATH@/assets/images/6487913-128x128-1.png",
+    "favicon": "@PROJECT_PATH@/assets/images/iconwhitebackground-128x128.png",
     "noImageResize": "",
     "path": "@PROJECT_PATH@",
     "siteFonts": [
@@ -59,7 +59,10 @@
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "robotsSwitcher": "",
     "siteUrl": "",
-    "sitemapSwitcherAuto": "on"
+    "sitemapSwitcherAuto": "on",
+    "google-analytics": "",
+    "cookiesAlert": "",
+    "gdpr": ""
   },
   "pages": {
     "index.html": {
