@@ -1844,6 +1844,7 @@ body {
 .cid-rdBMVw3yYT p {
   color: #767676;
   text-align: left;
+  margin-top: 1rem;
 }
 .cid-rdBMVw3yYT .aside-content {
   flex-basis: 100%;
@@ -1876,14 +1877,16 @@ body {
 }
 @media (min-width: 992px) {
   .cid-rdBMVw3yYT .mbr-figure {
-    padding-right: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
   }
 }
 @media (max-width: 991px) {
   .cid-rdBMVw3yYT .mbr-figure {
     padding-right: 0;
-    padding-bottom: 1rem;
-    margin-bottom: 2rem;
+    padding-bottom: 0rem;
+    margin-bottom: 0rem;
   }
 }
 @media (max-width: 300px) {
