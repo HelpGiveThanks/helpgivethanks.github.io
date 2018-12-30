@@ -11,7 +11,7 @@
       "styling": {
         "primaryColor": "#434343",
         "secondaryColor": "#ff3366",
-        "successColor": "#c4bc3b",
+        "successColor": "#ffffff",
         "infoColor": "#149dcc",
         "warningColor": "#0eb149",
         "dangerColor": "#097931",
@@ -27,7 +27,7 @@
         "display4Font": "Open Sans",
         "display4Size": 1,
         "isRoundedButtons": true,
-        "isAnimatedOnScroll": true,
+        "isAnimatedOnScroll": false,
         "isScrollToTopButton": true
       },
       "additionalSetColors": [
