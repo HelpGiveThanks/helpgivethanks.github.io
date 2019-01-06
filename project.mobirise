@@ -87,7 +87,9 @@
     "sitemapSwitcherAuto": "on",
     "google-analytics": "",
     "cookiesAlert": "",
-    "gdpr": ""
+    "gdpr": "",
+    "publishType": "local",
+    "publishPath": "file:///Users/davidmatson%201/Documents/HelpGiveThanks/helpgivethanks.github.io"
   },
   "pages": {
     "index.html": {
@@ -962,149 +964,6 @@
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
             "background-color": "@bgColor",
-            ".mbr-slider .carousel-control": {
-              "background": "#1b1b1b"
-            },
-            ".mbr-slider .carousel-control-prev": {
-              "left": "0",
-              "margin-left": "2.5rem"
-            },
-            ".mbr-slider .carousel-control-next": {
-              "right": "0",
-              "margin-right": "2.5rem"
-            },
-            ".mbr-slider .modal-body .close": {
-              "background": "#1b1b1b"
-            },
-            ".mbr-gallery-item > div::before": {
-              "content": "''",
-              "position": "absolute",
-              "left": "0",
-              "top": "0",
-              "width": "100%",
-              "height": "100%",
-              "background": "@overlayColor",
-              "opacity": "0",
-              "-webkit-transition": "0.2s opacity ease-in-out",
-              "transition": "0.2s opacity ease-in-out",
-              "& when (@gradOverlay)": {
-                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
-              }
-            },
-            ".mbr-gallery-item > div:hover": {
-              ".mbr-gallery-title::before": {
-                "background": "transparent !important"
-              },
-              "&:before": {
-                "opacity": "@overlayOpacity !important"
-              }
-            },
-            ".mbr-gallery-title": {
-              "font-size": ".9em",
-              "position": "absolute",
-              "display": "block",
-              "width": "100%",
-              "bottom": "0",
-              "padding": "1rem",
-              "color": "#fff",
-              "z-index": "2",
-              "&:before": {
-                "content": "\" \"",
-                "width": "100%",
-                "height": "100%",
-                "top": "0",
-                "left": "0",
-                "z-index": "-1",
-                "position": "absolute",
-                "background": "@overlayColor !important",
-                "opacity": "@overlayOpacity",
-                "-webkit-transition": "0.2s background ease-in-out",
-                "transition": "0.2s background ease-in-out",
-                "& when (@gradOverlay)": {
-                  "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
-                }
-              }
-            }
-          },
-          "_name": "gallery1",
-          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\">\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#0f7699\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\"></div>\n    </div>\n\n</section>",
-          "_cid": "rdEGPd7flp",
-          "_anchor": "gallery1-4q",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
-          "_protectedParams": [
-            "text_all",
-            "gallery__filtersTextStyle",
-            "gallery__filtersBtnStyle",
-            "gallery"
-          ],
-          "_global": false,
-          "_once": false,
-          "_params": {
-            "text_all": "All",
-            "gallery__filtersTextStyle": "display-7",
-            "gallery__filtersBtnStyle": "btn-primary-outline",
-            "gallery": [
-              {
-                "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201903-144312019-0-5-11-53-52.jpg",
-                "playVideo": false,
-                "videoUrl": "https://youtu.be/TJ0QU26Ul0A?t=3",
-                "image": "@PROJECT_PATH@/assets/images/screen-shot-2019-01-04-at-2.17.48-pm-1470x1100.png",
-                "thumb": "@PROJECT_PATH@/assets/images/screen-shot-2019-01-04-at-2.17.48-pm-1470x1100-800x599.png",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-5",
-                "caption": "<b>Discovering Kinesin</b>",
-                "active": true
-              },
-              {
-                "tags": "Responsive",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201903-144312019-0-5-11-56-56.jpg",
-                "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=YAva4g3Pk6k",
-                "image": "@THEME_PATH@/components/_images/gallery/gallery06.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/gallery06.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-1",
-                "caption": "<b>2</b>",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201903-144312019-0-5-11-53-52.jpg",
-                "playVideo": true,
-                "videoUrl": "https://youtu.be/TJ0QU26Ul0A",
-                "image": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201903-144312019-0-5-11-58-19.jpg",
-                "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=wzkQyWpu10E",
-                "image": "@THEME_PATH@/components/_images/gallery/gallery05.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/gallery05.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-5",
-                "caption": "<b>1</b>",
-                "active": false
-              }
-            ]
-          }
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
             ".mbr-text, blockquote": {
               "color": "#767676"
             },
@@ -1284,7 +1143,7 @@
             "gallery": [
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201905-032362019-0-6-0-54-58.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201905_032362019-0-6_0-54-58.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=o_x2RVnlTZs",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
@@ -1297,7 +1156,7 @@
               },
               {
                 "tags": "Responsive",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201905-032362019-0-6-0-59-30.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201905_032362019-0-6_0-59-30.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=lyu7v7nWzfo",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery01.jpg",
@@ -1310,7 +1169,7 @@
               },
               {
                 "tags": "Creative",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201905-032362019-0-6-1-37-40.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201905_032362019-0-6_1-37-40.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=rWvmA-be3X8",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery02.jpg",
@@ -1323,7 +1182,7 @@
               },
               {
                 "tags": "Animated",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201906-112942019-0-0-12-4-37.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201906_112942019-0-0_12-4-37.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=cmpu58yv8-g",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery03.jpg",
