@@ -87,7 +87,9 @@
     "sitemapSwitcherAuto": "on",
     "google-analytics": "",
     "cookiesAlert": "",
-    "gdpr": ""
+    "gdpr": "",
+    "publishType": "local",
+    "publishPath": "file:///Users/davidmatson%201/Documents/HelpGiveThanks/helpgivethanks.github.io"
   },
   "pages": {
     "index.html": {
@@ -1074,7 +1076,7 @@
             "gallery": [
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201905-032362019-0-6-0-54-58.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201905_032362019-0-6_0-54-58.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=o_x2RVnlTZs",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
@@ -1087,7 +1089,7 @@
               },
               {
                 "tags": "Responsive",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201905-032362019-0-6-0-59-30.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201905_032362019-0-6_0-59-30.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=lyu7v7nWzfo",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery01.jpg",
@@ -1100,7 +1102,7 @@
               },
               {
                 "tags": "Creative",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201905-032362019-0-6-1-37-40.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201905_032362019-0-6_1-37-40.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=rWvmA-be3X8",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery02.jpg",
@@ -1113,7 +1115,7 @@
               },
               {
                 "tags": "Animated",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201906-112942019-0-0-12-4-37.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201906_112942019-0-0_12-4-37.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=cmpu58yv8-g",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery03.jpg",
