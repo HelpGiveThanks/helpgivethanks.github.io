@@ -87,7 +87,9 @@
     "sitemapSwitcherAuto": "on",
     "google-analytics": "",
     "cookiesAlert": "",
-    "gdpr": ""
+    "gdpr": "",
+    "publishType": "local",
+    "publishPath": "file:///Users/davidmatson%201/Documents/HelpGiveThanks/helpgivethanks.github.io"
   },
   "pages": {
     "index.html": {
@@ -1074,7 +1076,7 @@
             "gallery": [
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201905-032362019-0-6-0-54-58.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201905_032362019-0-6_0-54-58.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=o_x2RVnlTZs",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
@@ -1087,7 +1089,7 @@
               },
               {
                 "tags": "Responsive",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201905-032362019-0-6-0-59-30.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201905_032362019-0-6_0-59-30.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=lyu7v7nWzfo",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery01.jpg",
@@ -1100,7 +1102,7 @@
               },
               {
                 "tags": "Creative",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201905-032362019-0-6-1-37-40.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201905_032362019-0-6_1-37-40.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=rWvmA-be3X8",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery02.jpg",
@@ -1113,7 +1115,7 @@
               },
               {
                 "tags": "Animated",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201906-112942019-0-0-12-4-37.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201906_112942019-0-0_12-4-37.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=cmpu58yv8-g",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery03.jpg",
@@ -1148,54 +1150,6 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "regCZxc53I",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 15px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background": "linear-gradient(45deg, @bg-value, @color2)"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".mbr-figure": {
-              "@media (min-width: 992px)": {
-                "padding-left": "4rem"
-              },
-              "@media (max-width: 991px)": {
-                "padding-top": "3rem"
-              }
-            },
-            ".media-container-row": {
-              "& when (@reverseContent)": {
-                "flex-direction": "row-reverse",
-                "-webkit-flex-direction": "row-reverse",
-                ".mbr-figure": {
-                  "@media (min-width: 992px)": {
-                    "padding-left": "0",
-                    "padding-right": "4rem"
-                  }
-                }
-              }
-            },
-            ".mbr-text, .mbr-section-btn": {
-              "color": "#e7e6e6",
-              "text-align": "left"
-            }
-          },
-          "_name": "header7",
-          "_customHTML": "<section class=\"header7\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Media On Right/Left\" name=\"reverseContent\" checked>\n\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"100\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"color\" name=\"color2\" title=\"Color 2\" value=\"#232323\" condition=\"bg.type=='color'\" selected>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n\n            <div class=\"media-content align-right\">\n                <h1 class=\"mbr-section-title mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                    Intro with Video\n                </h1>\n                <div class=\"mbr-section-text mbr-white pb-3\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                        Intro with background color, paddings and a video on the right. Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface.\n                    </p>\n                </div>\n                <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                        <a class=\"btn btn-md btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                        <a class=\"btn btn-md btn-white-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n\n                  <div style=\"margin: 0 0rem 0 1rem;\">\n<div class=\"mbr-figure\" style=\"width: 100%;\"> <video class=\"embed-responsive-item\" controls poster=\"/assets/images/GiftOfThanks.png\" style=\"width: 320px; height: 240px;\">\n    <source src=\"http://podcasts.tvo.org/bi/video/BI_Full_20081220_834111_MargaretVisser_320x240_304k.mp4\" type=\"video/mp4\"> \n  </video></div>\n                  </div>\n\n        </div>\n    </div>\n</section>",
-          "_cid": "reIEppJEry",
-          "_anchor": "header7-7t",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -1291,7 +1245,7 @@
             "gallery": [
               {
                 "tags": "Animated",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201909-1043542019-0-3-19-19-55.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201909_1043542019-0-3_19-19-55.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/ROnC9064Rv4?t=5253",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
@@ -1304,7 +1258,7 @@
               },
               {
                 "tags": "Animated",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201909-1043542019-0-3-19-27-3.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201909_1043542019-0-3_19-27-3.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=SF242mxtZN8",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
@@ -1317,7 +1271,7 @@
               },
               {
                 "tags": "Animated",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201909-1043542019-0-3-18-59-34.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201909_1043542019-0-3_18-59-34.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=hmpVOUrLqq8",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
@@ -1330,7 +1284,7 @@
               },
               {
                 "tags": "Animated",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201909-1043542019-0-3-15-2-7.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201909_1043542019-0-3_15-2-7.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/7VuKfSdZWlg?t=434",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
@@ -1343,6 +1297,54 @@
               }
             ]
           }
+        },
+        {
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background": "linear-gradient(45deg, @bg-value, @color2)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-figure": {
+              "@media (min-width: 992px)": {
+                "padding-left": "4rem"
+              },
+              "@media (max-width: 991px)": {
+                "padding-top": "3rem"
+              }
+            },
+            ".media-container-row": {
+              "& when (@reverseContent)": {
+                "flex-direction": "row-reverse",
+                "-webkit-flex-direction": "row-reverse",
+                ".mbr-figure": {
+                  "@media (min-width: 992px)": {
+                    "padding-left": "0",
+                    "padding-right": "4rem"
+                  }
+                }
+              }
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#e7e6e6",
+              "text-align": "left"
+            }
+          },
+          "_name": "header7",
+          "_customHTML": "<section class=\"header7\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Media On Right/Left\" name=\"reverseContent\" checked>\n\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"100\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"color\" name=\"color2\" title=\"Color 2\" value=\"#232323\" condition=\"bg.type=='color'\" selected>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n\n            <div class=\"media-content align-right\">\n                <h1 class=\"mbr-section-title mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                    Intro with Video\n                </h1>\n                <div class=\"mbr-section-text mbr-white pb-3\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                        Intro with background color, paddings and a video on the right. Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface.\n                    </p>\n                </div>\n                <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                        <a class=\"btn btn-md btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                        <a class=\"btn btn-md btn-white-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n\n                  <div style=\"margin: 0 0rem 0 1rem;\">\n<div class=\"mbr-figure\" style=\"width: 100%;\"> <video class=\"embed-responsive-item\" controls poster=\"/assets/images/GiftOfThanks.png\" style=\"width: 320px; height: 240px;\">\n    <source src=\"http://podcasts.tvo.org/bi/video/BI_Full_20081220_834111_MargaretVisser_320x240_304k.mp4\" type=\"video/mp4\"> \n  </video></div>\n                  </div>\n\n        </div>\n    </div>\n</section>",
+          "_cid": "reIEppJEry",
+          "_anchor": "header7-7t",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         },
         {
           "_styles": {
