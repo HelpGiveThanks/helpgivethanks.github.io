@@ -1265,14 +1265,14 @@
                 "tags": "Animated",
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201909-1043542019-0-3-19-19-55.jpg",
                 "playVideo": true,
-                "videoUrl": "https://youtu.be/ROnC9064Rv4?t=5253",
+                "videoUrl": "https://youtu.be/ROnC9064Rv4?t=5260",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
                 "thumb": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-2",
                 "caption": "<b>Start watching at 1:27:30</b>",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Animated",
@@ -1291,14 +1291,14 @@
                 "tags": "Animated",
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201909-2322142019-0-4-11-26-35.jpg",
                 "playVideo": true,
-                "videoUrl": "https://youtu.be/gRFJfFAfyyk?t=370",
+                "videoUrl": "https://youtu.be/gRFJfFAfyyk?t=377",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
                 "thumb": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-2",
                 "caption": "<b>Start watching at 0:06:10</b>",
-                "active": true
+                "active": false
               }
             ]
           },
