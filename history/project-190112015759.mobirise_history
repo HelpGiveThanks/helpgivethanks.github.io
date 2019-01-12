@@ -26,7 +26,7 @@
         "display7Size": 1,
         "display4Font": "Open Sans",
         "display4Size": 1,
-        "isRoundedButtons": false,
+        "isRoundedButtons": true,
         "isAnimatedOnScroll": false,
         "isScrollToTopButton": true
       },
@@ -87,7 +87,9 @@
     "sitemapSwitcherAuto": "on",
     "google-analytics": "",
     "cookiesAlert": "",
-    "gdpr": ""
+    "gdpr": "",
+    "publishType": "local",
+    "publishPath": "file:///Users/davidmatson%201/Documents/HelpGiveThanks/helpgivethanks.github.io"
   },
   "pages": {
     "index.html": {
@@ -989,37 +991,19 @@
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
             "background-color": "@bgColor",
-            ".mbr-slider .carousel-control": {
-              "opacity": "0",
-              "height": "80%",
-              "top": "20%",
-              "transition": "all 0s ease-in-out 0s"
-            },
             ".mbr-slider .carousel-control:hover": {
-              "background": "#1b1b1b",
-              "opacity": "1",
-              "height": "80%",
-              "top": "20%"
-            },
-            ".mbr-slider .carousel-control-prev:hover": {
-              "right": "0",
-              "margin-right": "2.5rem",
               "opacity": "1"
+            },
+            ".mbr-gallery .mbr-slider .carousel-control": {
+              "opacity": "0"
             },
             ".mbr-slider .carousel-control-prev": {
               "left": "0",
-              "margin-left": "2.5rem",
-              "opacity": "0"
-            },
-            ".mbr-slider .carousel-control-next:hover": {
-              "right": "0",
-              "margin-right": "2.5rem",
-              "opacity": "1"
+              "margin-left": "2.5rem"
             },
             ".mbr-slider .carousel-control-next": {
               "right": "0",
-              "margin-right": "2.5rem",
-              "opacity": "0"
+              "margin-right": "2.5rem"
             },
             ".mbr-slider .modal-body .close": {
               "background": "#1b1b1b"
@@ -1102,7 +1086,7 @@
             "gallery": [
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201905-032362019-0-6-0-54-58.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201905_032362019-0-6_0-54-58.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=o_x2RVnlTZs",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
@@ -1115,7 +1099,7 @@
               },
               {
                 "tags": "Responsive",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201905-032362019-0-6-0-59-30.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201905_032362019-0-6_0-59-30.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=lyu7v7nWzfo",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery01.jpg",
@@ -1128,7 +1112,7 @@
               },
               {
                 "tags": "Creative",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201905-032362019-0-6-1-37-40.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201905_032362019-0-6_1-37-40.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=rWvmA-be3X8",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery02.jpg",
@@ -1141,7 +1125,7 @@
               },
               {
                 "tags": "Animated",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201906-112942019-0-0-12-4-37.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201906_112942019-0-0_12-4-37.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=cmpu58yv8-g",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery03.jpg",
@@ -1187,36 +1171,15 @@
             "padding-bottom": "(@paddingBottom * 15px)",
             "background-color": "@bgColor",
             ".mbr-slider .carousel-control": {
-              "opacity": "0",
-              "height": "80%",
-              "top": "20%",
-              "transition": "all 0s ease-in-out 0s"
-            },
-            ".mbr-slider .carousel-control:hover": {
-              "background": "#1b1b1b",
-              "opacity": "1",
-              "height": "80%",
-              "top": "20%"
-            },
-            ".mbr-slider .carousel-control-prev:hover": {
-              "right": "0",
-              "margin-right": "2.5rem",
-              "opacity": "1"
+              "background": "#1b1b1b"
             },
             ".mbr-slider .carousel-control-prev": {
               "left": "0",
-              "margin-left": "2.5rem",
-              "opacity": "0"
-            },
-            ".mbr-slider .carousel-control-next:hover": {
-              "right": "0",
-              "margin-right": "2.5rem",
-              "opacity": "1"
+              "margin-left": "2.5rem"
             },
             ".mbr-slider .carousel-control-next": {
               "right": "0",
-              "margin-right": "2.5rem",
-              "opacity": "0"
+              "margin-right": "2.5rem"
             },
             ".mbr-slider .modal-body .close": {
               "background": "#1b1b1b"
@@ -1302,7 +1265,7 @@
             "gallery": [
               {
                 "tags": "Animated",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201909-1043542019-0-3-15-2-7.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201909_1043542019-0-3_15-2-7.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/7VuKfSdZWlg?t=356",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
@@ -1315,7 +1278,7 @@
               },
               {
                 "tags": "Animated",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201909-1043542019-0-3-19-19-55.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201909_1043542019-0-3_19-19-55.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/ROnC9064Rv4?start=5270",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
@@ -1328,7 +1291,7 @@
               },
               {
                 "tags": "Animated",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201909-1043542019-0-3-18-59-34.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201909_1043542019-0-3_18-59-34.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=hmpVOUrLqq8",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
@@ -1341,7 +1304,7 @@
               },
               {
                 "tags": "Animated",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019010-2334492019-0-4-23-42-11.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019010_2334492019-0-4_23-42-11.jpg",
                 "playVideo": true,
                 "videoUrl": "https://vimeo.com/79860268#t=6m10s",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
