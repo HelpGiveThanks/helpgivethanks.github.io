@@ -1267,7 +1267,7 @@
                 "title": "",
                 "customStyle1": "display-2",
                 "caption": "Gilbert | 60 min | start at 0:05:40",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Animated",
@@ -1297,16 +1297,16 @@
               },
               {
                 "tags": "Animated",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201909-2322142019-0-4-11-26-35.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019010-2334492019-0-4-23-42-11.jpg",
                 "playVideo": true,
-                "videoUrl": "https://youtu.be/gRFJfFAfyyk?t=381",
+                "videoUrl": "https://vimeo.com/79860268#t=6m10s",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
                 "thumb": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-2",
                 "caption": "Cisek | 60 min | start at 0:06:10",
-                "active": false
+                "active": true
               }
             ]
           }
