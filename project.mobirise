@@ -1023,7 +1023,7 @@
                 "background": "transparent !important"
               },
               "&:before": {
-                "opacity": "@overlayOpacity !important"
+                "opacity": "0.75 !important"
               }
             },
             ".mbr-gallery-title": {
@@ -1088,7 +1088,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-2",
-                "caption": "Freeman | 46 min",
+                "caption": "Freeman &amp; Matson | 46 min",
                 "active": false
               },
               {
@@ -1198,7 +1198,7 @@
                 "background": "transparent !important"
               },
               "&:before": {
-                "opacity": "@overlayOpacity !important"
+                "opacity": ".75 !important"
               }
             },
             ".mbr-gallery-title": {

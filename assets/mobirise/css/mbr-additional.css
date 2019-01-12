@@ -2090,7 +2090,7 @@ body {
   background: transparent !important;
 }
 .cid-regCSkxGOq .mbr-gallery-item > div:hover:before {
-  opacity: 1 !important;
+  opacity: 0.75 !important;
 }
 .cid-regCSkxGOq .mbr-gallery-title {
   font-size: .9em;
@@ -2169,7 +2169,7 @@ body {
   background: transparent !important;
 }
 .cid-reDIay7aYy .mbr-gallery-item > div:hover:before {
-  opacity: 1 !important;
+  opacity: .75 !important;
 }
 .cid-reDIay7aYy .mbr-gallery-title {
   font-size: .9em;
