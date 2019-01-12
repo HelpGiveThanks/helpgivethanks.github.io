@@ -2081,7 +2081,7 @@ body {
   top: 0;
   width: 100%;
   height: 100%;
-  background: #000000;
+  background: #333333;
   opacity: 0;
   -webkit-transition: 0.2s opacity ease-in-out;
   transition: 0.2s opacity ease-in-out;
@@ -2090,7 +2090,7 @@ body {
   background: transparent !important;
 }
 .cid-regCSkxGOq .mbr-gallery-item > div:hover:before {
-  opacity: 0.6 !important;
+  opacity: 1 !important;
 }
 .cid-regCSkxGOq .mbr-gallery-title {
   font-size: .9em;
@@ -2110,14 +2110,14 @@ body {
   left: 0;
   z-index: -1;
   position: absolute;
-  background: #000000 !important;
-  opacity: 0.6;
+  background: #333333 !important;
+  opacity: 1;
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
 }
 .cid-regCSkxGOq .mbr-gallery-item > div > span {
-  text-align: left;
-  padding: 0rem;
+  text-align: center;
+  padding: 0.1rem;
 }
 .cid-regCZxc53I {
   padding-top: 0px;
@@ -2160,7 +2160,7 @@ body {
   top: 0;
   width: 100%;
   height: 100%;
-  background: #000000;
+  background: #333333;
   opacity: 0;
   -webkit-transition: 0.2s opacity ease-in-out;
   transition: 0.2s opacity ease-in-out;
@@ -2169,7 +2169,7 @@ body {
   background: transparent !important;
 }
 .cid-reDIay7aYy .mbr-gallery-item > div:hover:before {
-  opacity: 0.8 !important;
+  opacity: 1 !important;
 }
 .cid-reDIay7aYy .mbr-gallery-title {
   font-size: .9em;
@@ -2189,8 +2189,8 @@ body {
   left: 0;
   z-index: -1;
   position: absolute;
-  background: #000000 !important;
-  opacity: 0.8;
+  background: #333333 !important;
+  opacity: 1;
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
 }
@@ -2198,8 +2198,8 @@ body {
   color: #ffffff;
 }
 .cid-reDIay7aYy .mbr-gallery-item > div > span {
-  text-align: left;
-  padding: 0rem;
+  text-align: center;
+  padding: 0.1rem;
 }
 .cid-reIEppJEry {
   padding-top: 15px;
