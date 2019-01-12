@@ -87,7 +87,9 @@
     "sitemapSwitcherAuto": "on",
     "google-analytics": "",
     "cookiesAlert": "",
-    "gdpr": ""
+    "gdpr": "",
+    "publishType": "local",
+    "publishPath": "file:///Users/davidmatson%201/Documents/HelpGiveThanks/helpgivethanks.github.io"
   },
   "pages": {
     "index.html": {
@@ -1063,8 +1065,6 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "regCSkxGOq",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
           "_protectedParams": [
             "text_all",
             "gallery__filtersTextStyle",
@@ -1080,7 +1080,7 @@
             "gallery": [
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201905-032362019-0-6-0-54-58.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201905_032362019-0-6_0-54-58.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=o_x2RVnlTZs",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
@@ -1093,7 +1093,7 @@
               },
               {
                 "tags": "Responsive",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201905-032362019-0-6-0-59-30.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201905_032362019-0-6_0-59-30.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=lyu7v7nWzfo",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery01.jpg",
@@ -1106,7 +1106,7 @@
               },
               {
                 "tags": "Creative",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201905-032362019-0-6-1-37-40.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201905_032362019-0-6_1-37-40.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=rWvmA-be3X8",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery02.jpg",
@@ -1119,7 +1119,7 @@
               },
               {
                 "tags": "Animated",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201906-112942019-0-0-12-4-37.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201906_112942019-0-0_12-4-37.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=cmpu58yv8-g",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery03.jpg",
@@ -1131,7 +1131,9 @@
                 "active": true
               }
             ]
-          }
+          },
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
         },
         {
           "_styles": {
@@ -1241,8 +1243,6 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "reDIay7aYy",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
           "_protectedParams": [
             "text_all",
             "gallery__filtersTextStyle",
@@ -1258,7 +1258,7 @@
             "gallery": [
               {
                 "tags": "Animated",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201909-1043542019-0-3-15-2-7.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201909_1043542019-0-3_15-2-7.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/7VuKfSdZWlg?t=356",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
@@ -1266,12 +1266,12 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-2",
-                "caption": "Gilbert<br>60 min | start watching at 0:05:40",
+                "caption": "Gilbert<br>1 hour | start watching at 0:05:40",
                 "active": true
               },
               {
                 "tags": "Animated",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201909-1043542019-0-3-19-19-55.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201909_1043542019-0-3_19-19-55.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/ROnC9064Rv4?t=5270",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
@@ -1284,7 +1284,7 @@
               },
               {
                 "tags": "Animated",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201909-1043542019-0-3-18-59-34.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201909_1043542019-0-3_18-59-34.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=hmpVOUrLqq8",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
@@ -1297,7 +1297,7 @@
               },
               {
                 "tags": "Animated",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201909-2322142019-0-4-11-26-35.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201909_2322142019-0-4_11-26-35.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/gRFJfFAfyyk?t=381",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
@@ -1305,11 +1305,13 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-2",
-                "caption": "Cisek<br>60 min | start watching at 0:06:10",
+                "caption": "Cisek<br>1 hour | start watching at 0:06:10",
                 "active": false
               }
             ]
-          }
+          },
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
         },
         {
           "_styles": {
@@ -1768,8 +1770,8 @@
                 "thumb": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
                 "alt": "",
                 "title": "",
-                "customStyle1": "display-2",
-                "caption": "HGT Web Apps: Part 1<br>5 min",
+                "customStyle1": "display-7",
+                "caption": "Intro",
                 "active": true
               },
               {
@@ -1781,8 +1783,8 @@
                 "thumb": "@THEME_PATH@/components/_images/gallery/gallery05.jpg",
                 "alt": "",
                 "title": "",
-                "customStyle1": "display-2",
-                "caption": "HGT Web Apps: Part 2<br>5 min",
+                "customStyle1": "display-7",
+                "caption": "50kview",
                 "active": false
               },
               {
@@ -1794,8 +1796,8 @@
                 "thumb": "@THEME_PATH@/components/_images/gallery/gallery06.jpg",
                 "alt": "",
                 "title": "",
-                "customStyle1": "display-2",
-                "caption": "HGT Web Apps: Part 3<br>5 min",
+                "customStyle1": "display-7",
+                "caption": "github",
                 "active": false
               },
               {
@@ -1807,8 +1809,8 @@
                 "thumb": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
                 "alt": "",
                 "title": "",
-                "customStyle1": "display-2",
-                "caption": "musallam<br>14 min  ",
+                "customStyle1": "display-7",
+                "caption": "http://www.ted.com/talks/ramsey_musallam_3_rules_to_spark_learning.html  ",
                 "active": false
               }
             ]
