@@ -2086,6 +2086,9 @@ body {
   -webkit-transition: 0.2s opacity ease-in-out;
   transition: 0.2s opacity ease-in-out;
 }
+.cid-regCSkxGOq .mbr-gallery-item > div:hover {
+  font-size: 1.2rem;
+}
 .cid-regCSkxGOq .mbr-gallery-item > div:hover .mbr-gallery-title::before {
   background: transparent !important;
 }
@@ -2164,6 +2167,9 @@ body {
   opacity: 0;
   -webkit-transition: 0.2s opacity ease-in-out;
   transition: 0.2s opacity ease-in-out;
+}
+.cid-reDIay7aYy .mbr-gallery-item > div:hover {
+  font-size: 1.2rem;
 }
 .cid-reDIay7aYy .mbr-gallery-item > div:hover .mbr-gallery-title::before {
   background: transparent !important;

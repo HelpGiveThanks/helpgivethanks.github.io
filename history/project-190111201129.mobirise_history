@@ -87,7 +87,9 @@
     "sitemapSwitcherAuto": "on",
     "google-analytics": "",
     "cookiesAlert": "",
-    "gdpr": ""
+    "gdpr": "",
+    "publishType": "local",
+    "publishPath": "file:///Users/davidmatson%201/Documents/HelpGiveThanks/helpgivethanks.github.io"
   },
   "pages": {
     "index.html": {
@@ -1024,8 +1026,7 @@
               },
               "&:before": {
                 "opacity": "0.75 !important"
-              },
-              "font-size": "1.2rem"
+              }
             },
             ".mbr-gallery-title": {
               "font-size": ".9em",
@@ -1081,7 +1082,7 @@
             "gallery": [
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201905-032362019-0-6-0-54-58.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201905_032362019-0-6_0-54-58.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=o_x2RVnlTZs",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
@@ -1094,7 +1095,7 @@
               },
               {
                 "tags": "Responsive",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201905-032362019-0-6-0-59-30.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201905_032362019-0-6_0-59-30.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=lyu7v7nWzfo",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery01.jpg",
@@ -1107,7 +1108,7 @@
               },
               {
                 "tags": "Creative",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201905-032362019-0-6-1-37-40.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201905_032362019-0-6_1-37-40.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=rWvmA-be3X8",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery02.jpg",
@@ -1120,7 +1121,7 @@
               },
               {
                 "tags": "Animated",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201906-112942019-0-0-12-4-37.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201906_112942019-0-0_12-4-37.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=cmpu58yv8-g",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery03.jpg",
@@ -1201,7 +1202,7 @@
               "&:before": {
                 "opacity": ".75 !important"
               },
-              "font-size": "1.2rem"
+              "font-size": "1.25rem"
             },
             ".mbr-gallery-title": {
               "font-size": ".9em",
@@ -1260,7 +1261,7 @@
             "gallery": [
               {
                 "tags": "Animated",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201909-1043542019-0-3-15-2-7.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201909_1043542019-0-3_15-2-7.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/7VuKfSdZWlg?t=356",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
@@ -1273,7 +1274,7 @@
               },
               {
                 "tags": "Animated",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201909-1043542019-0-3-19-19-55.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201909_1043542019-0-3_19-19-55.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/ROnC9064Rv4?start=5270",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
@@ -1286,7 +1287,7 @@
               },
               {
                 "tags": "Animated",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201909-1043542019-0-3-18-59-34.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201909_1043542019-0-3_18-59-34.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=hmpVOUrLqq8",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
@@ -1299,7 +1300,7 @@
               },
               {
                 "tags": "Animated",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019010-2334492019-0-4-23-42-11.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019010_2334492019-0-4_23-42-11.jpg",
                 "playVideo": true,
                 "videoUrl": "https://vimeo.com/79860268#t=6m10s",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
