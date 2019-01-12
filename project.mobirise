@@ -1051,10 +1051,14 @@
                   "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
                 }
               }
+            },
+            ".mbr-gallery-item > div > span": {
+              "text-align": "right",
+              "padding": "0rem"
             }
           },
           "_name": "gallery1",
-          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\">\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#0f7699\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#232323\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\"></div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\">\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#0f7699\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#232323\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\" mbr-gallery-show-text></div>\n    </div>\n\n</section>",
           "_anchor": "gallery1-70",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
@@ -1081,8 +1085,8 @@
                 "thumb": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
                 "alt": "",
                 "title": "",
-                "customStyle1": "display-7",
-                "caption": "Type caption here",
+                "customStyle1": "display-2",
+                "caption": "<b>46 min</b>",
                 "active": false
               },
               {
@@ -1094,8 +1098,8 @@
                 "thumb": "@THEME_PATH@/components/_images/gallery/gallery01.jpg",
                 "alt": "",
                 "title": "",
-                "customStyle1": "display-7",
-                "caption": "Type caption here",
+                "customStyle1": "display-2",
+                "caption": "<b>17 min</b>",
                 "active": false
               },
               {
@@ -1107,8 +1111,8 @@
                 "thumb": "@THEME_PATH@/components/_images/gallery/gallery02.jpg",
                 "alt": "",
                 "title": "",
-                "customStyle1": "display-7",
-                "caption": "Type caption here",
+                "customStyle1": "display-2",
+                "caption": "<b>1:30 min</b>",
                 "active": false
               },
               {
@@ -1120,12 +1124,14 @@
                 "thumb": "@THEME_PATH@/components/_images/gallery/gallery03.jpg",
                 "alt": "",
                 "title": "",
-                "customStyle1": "display-7",
-                "caption": "Type caption here",
+                "customStyle1": "display-2",
+                "caption": "<b>12 min</b>",
                 "active": true
               }
             ]
-          }
+          },
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
         },
         {
           "_styles": {
@@ -1230,7 +1236,7 @@
             }
           },
           "_name": "gallery1",
-          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\">\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#0f7699\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#232323\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\" mbr-gallery-show-text></div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\">\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#0f7699\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#232323\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\" mbr-gallery-show-text></div>\n    </div>\n\n</section>",
           "_anchor": "gallery1-7f",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
@@ -1252,27 +1258,27 @@
                 "tags": "Animated",
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201909-1043542019-0-3-15-2-7.jpg",
                 "playVideo": true,
-                "videoUrl": "https://youtu.be/7VuKfSdZWlg?t=434",
-                "image": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201909-1043542019-0-3-19-19-55.jpg",
-                "playVideo": true,
-                "videoUrl": "https://youtu.be/ROnC9064Rv4?t=5260",
+                "videoUrl": "https://youtu.be/7VuKfSdZWlg?t=356",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
                 "thumb": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-2",
-                "caption": "<b>Start watching at 1:27:30</b>",
+                "caption": "<b>1 hour | start watching at 0:05:40</b>",
                 "active": true
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201909-1043542019-0-3-19-19-55.jpg",
+                "playVideo": true,
+                "videoUrl": "https://youtu.be/ROnC9064Rv4?t=5270",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-2",
+                "caption": "<b>10 min | start watching at 1:27:30</b>",
+                "active": false
               },
               {
                 "tags": "Animated",
@@ -1283,21 +1289,21 @@
                 "thumb": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
                 "alt": "",
                 "title": "",
-                "customStyle1": "display-7",
-                "caption": "",
+                "customStyle1": "display-2",
+                "caption": "<b>54 min</b>",
                 "active": false
               },
               {
                 "tags": "Animated",
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201909-2322142019-0-4-11-26-35.jpg",
                 "playVideo": true,
-                "videoUrl": "https://youtu.be/gRFJfFAfyyk?t=377",
+                "videoUrl": "https://youtu.be/gRFJfFAfyyk?t=381",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
                 "thumb": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-2",
-                "caption": "<b>Start watching at 0:06:10</b>",
+                "caption": "<b>1 hour | start watching at 0:06:10</b>",
                 "active": false
               }
             ]
