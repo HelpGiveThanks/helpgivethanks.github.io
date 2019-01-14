@@ -2135,12 +2135,12 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "reGwciUjPF",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
         },
         {
           "_styles": {
@@ -2290,9 +2290,6 @@
             },
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
-            },
-            ".container": {
-              "padding": "0px 11px"
             },
             ".mbr-section-subtitle": {
               "color": "#767676"
@@ -2748,9 +2745,6 @@
             },
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
-            },
-            ".container": {
-              "padding": "0px 11px"
             },
             ".mbr-section-subtitle": {
               "color": "#767676"
@@ -3259,9 +3253,6 @@
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            ".container": {
-              "padding": "0px 11px"
-            },
             ".mbr-section-subtitle": {
               "color": "#767676"
             },
@@ -3713,9 +3704,6 @@
             },
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
-            },
-            ".container": {
-              "padding": "0px 11px"
             },
             ".mbr-section-subtitle": {
               "color": "#767676"
