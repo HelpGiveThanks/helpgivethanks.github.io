@@ -87,7 +87,9 @@
     "sitemapSwitcherAuto": "on",
     "google-analytics": "",
     "cookiesAlert": "",
-    "gdpr": ""
+    "gdpr": "",
+    "publishType": "local",
+    "publishPath": "file:///Users/davidmatson%201/Documents"
   },
   "pages": {
     "index.html": {
