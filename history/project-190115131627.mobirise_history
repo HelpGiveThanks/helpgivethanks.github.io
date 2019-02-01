@@ -3,8 +3,8 @@
     "name": "Help Give Thanks Research Project",
     "currentPage": "index.html",
     "versionFirst": "4.0.14",
-    "uniqCompNum": 292,
-    "versionPublish": "4.9.1",
+    "uniqCompNum": 290,
+    "versionPublish": "4.8.10",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -87,7 +87,9 @@
     "sitemapSwitcherAuto": "on",
     "google-analytics": "",
     "cookiesAlert": "",
-    "gdpr": ""
+    "gdpr": "",
+    "publishType": "local",
+    "publishPath": "file:///Users/davidmatson%201/Documents/HelpGiveThanks/helpgivethanks.github.io"
   },
   "pages": {
     "index.html": {
