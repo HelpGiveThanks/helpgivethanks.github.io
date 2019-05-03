@@ -4,7 +4,7 @@
     "currentPage": "index.html",
     "versionFirst": "4.0.14",
     "uniqCompNum": 321,
-    "versionPublish": "4.9.7",
+    "versionPublish": "4.9.6",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -87,7 +87,9 @@
     "sitemapSwitcherAuto": "on",
     "google-analytics": "",
     "cookiesAlert": "",
-    "gdpr": ""
+    "gdpr": "",
+    "publishType": "local",
+    "publishPath": "file:///Users/davidmatson%201/Documents/HelpGiveThanks/helpgivethanks.github.io"
   },
   "pages": {
     "index.html": {
@@ -2981,20 +2983,33 @@
                 "title": "",
                 "customStyle1": "display-2",
                 "caption": "5 | 4:29",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019225-205592019-2-2-8-58-46.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019225-205592019-2-2-9-30-34.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/aG-s8buQkVo",
-                "image": "@PROJECT_PATH@/assets/images/screen-shot-2019-04-28-at-4.16.52-pm-2000x1250.png",
-                "thumb": "@PROJECT_PATH@/assets/images/screen-shot-2019-04-28-at-4.16.52-pm-2000x1250-800x500.png",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery05.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery05.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "6 | 5:44",
                 "active": false
+              },
+              {
+                "tags": "Awesome",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019225-205592019-2-2-9-30-34.jpg",
+                "playVideo": true,
+                "videoUrl": "https://youtu.be/aG-s8buQkVo",
+                "image": "@PROJECT_PATH@/assets/images/screen%20shot%202019-04-28%20at%204.16.52%20pm-2000x1250.png",
+                "thumb": "@PROJECT_PATH@/assets/images/screen-shot-2019-04-28-at-4.16.52-pm-2000x1250-800x500.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "6 | 5:44",
+                "active": true
               }
             ]
           }

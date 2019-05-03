@@ -87,7 +87,9 @@
     "sitemapSwitcherAuto": "on",
     "google-analytics": "",
     "cookiesAlert": "",
-    "gdpr": ""
+    "gdpr": "",
+    "publishType": "local",
+    "publishPath": "file:///Users/davidmatson%201/Documents/HelpGiveThanks/helpgivethanks.github.io"
   },
   "pages": {
     "index.html": {
@@ -2972,9 +2974,9 @@
               },
               {
                 "tags": "Responsive",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019225-205592019-2-2-8-47-56.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019225_205592019-2-2_8-58-46.jpg",
                 "playVideo": true,
-                "videoUrl": "https://youtu.be/dmaa3S-Uttc",
+                "videoUrl": "https://youtu.be/aG-s8buQkVo",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery06.jpg",
                 "thumb": "@THEME_PATH@/components/_images/gallery/gallery06.jpg",
                 "alt": "",
@@ -2985,11 +2987,11 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019225-205592019-2-2-8-58-46.jpg",
+                "videoPreview": "@THEME_PATH@/components/_images/logo.jpg",
                 "playVideo": true,
-                "videoUrl": "https://youtu.be/aG-s8buQkVo",
-                "image": "@PROJECT_PATH@/assets/images/screen-shot-2019-04-28-at-4.16.52-pm-2000x1250.png",
-                "thumb": "@PROJECT_PATH@/assets/images/screen-shot-2019-04-28-at-4.16.52-pm-2000x1250-800x500.png",
+                "videoUrl": "https://www.youtube.com/watch?time_continue=1&v=aG-s8buQkVo",
+                "image": "@PROJECT_PATH@/assets/images/mobirise2019225_205592019-2-2_8-44-21-1280x720.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mobirise2019225-205592019-2-2-8-44-21-1280x720-800x450.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",

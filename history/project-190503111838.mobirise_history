@@ -4,7 +4,7 @@
     "currentPage": "index.html",
     "versionFirst": "4.0.14",
     "uniqCompNum": 321,
-    "versionPublish": "4.9.7",
+    "versionPublish": "4.9.6",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -87,7 +87,9 @@
     "sitemapSwitcherAuto": "on",
     "google-analytics": "",
     "cookiesAlert": "",
-    "gdpr": ""
+    "gdpr": "",
+    "publishType": "local",
+    "publishPath": "file:///Users/davidmatson%201/Documents/HelpGiveThanks/helpgivethanks.github.io"
   },
   "pages": {
     "index.html": {
@@ -298,6 +300,34 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "rmZmwZEA9a",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".col-14": {
+              "padding": "0px 7px"
+            },
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#434343"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#f9f9f9\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-14 col-md-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article><p><br></p><p></p></div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-4e",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rdEfqWbhjN",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_protectedParams": [],
@@ -2322,7 +2352,7 @@
             }
           },
           "_name": "features5",
-          "_customHTML": "<section class=\"features5\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        \n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/06.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#f9f9f9\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n\n            <div class=\"card p-3 col-16 col-md-3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-img pb-1\">\n                    <a href=\"index.html#features5-74\"><span mbr-icon class=\"mbr-iconfont mbri-responsive\" style=\"color: rgb(159, 159, 159); fill: rgb(159, 159, 159); font-size: 55px;\"></span></a>\n                </div>\n                <div class=\"card-box\">\n                    <h4 class=\"card-title py-0 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-img\"><a href=\"index.html#features5-74\" class=\"text-danger\">Applications</a><b>⬆︎</b></h4>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                       Mobirise is an easy website builder - just drop site elements to your page, add content and style it to look the way you like.</p>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-16 col-md-3\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-img pb-1\">\n                    <a href=\"index.html#features5-7g\"><span mbr-icon class=\"mbr-iconfont mbri-setting\" style=\"color: rgb(159, 159, 159); fill: rgb(159, 159, 159); font-size: 55px;\"></span></a>\n                </div>\n                <div class=\"card-box\">\n                    <h4 class=\"card-title py-0 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-img\"><a href=\"index.html#features5-74\" class=\"text-danger\"></a><a href=\"index.html#features5-7g\" class=\"text-danger\">Application Tests⬇︎</a></h4>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                       All sites you make with Mobirise are mobile-friendly. You don't have to create a special mobile version of your site.</p>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-16 col-md-3\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-img pb-1\">\n                    <a href=\"index.html#features5-7h\"><span mbr-icon class=\"mbr-iconfont imind-library\" style=\"color: rgb(159, 159, 159); fill: rgb(159, 159, 159); font-size: 55px;\"></span></a>\n                </div>\n                <div class=\"card-box\">\n                    <h4 class=\"card-title py-0 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-img\"><a href=\"index.html#features5-7h\" class=\"text-danger\">Libraries⬇︎</a></h4>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                       Mobirise offers many site blocks in several themes, and though these blocks are pre-made, they are flexible. <a href=\"https://mobirise.co\" class=\"text-info\">Learn more...</a>\n                    </p>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-16 col-md-3\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-img pb-1\">\n                    <a href=\"index.html#features5-7i\"><span mbr-icon class=\"mbr-iconfont icon54-v1-brain\" style=\"color: rgb(159, 159, 159); fill: rgb(159, 159, 159); font-size: 55px;\"></span></a>\n                </div>\n                <div class=\"card-box mbr-fonts-style\">\n                    <h4 class=\"card-title py-0\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-img\"><a href=\"index.html#features5-7i\" class=\"text-danger\">Brain Exercises⬇︎</a></h4>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                       Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app. <a href=\"https://mobirise.co\" class=\"text-info\">Learn more...</a>\n                    </p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"features5\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        \n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/06.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#f9f9f9\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n\n            <div class=\"card p-3 col-16 col-md-3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-img pb-1\">\n                    <a href=\"index.html#features5-74\"><span mbr-icon class=\"mbr-iconfont mbri-responsive\" style=\"color: rgb(159, 159, 159); fill: rgb(159, 159, 159); font-size: 55px;\"></span></a>\n                </div>\n                <div class=\"card-box\">\n                    <h4 class=\"card-title py-0 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-img\"><a href=\"index.html#features5-74\" class=\"text-danger\">Applications</a><b>⬆︎</b></h4>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                       Mobirise is an easy website builder - just drop site elements to your page, add content and style it to look the way you like.</p>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-16 col-md-3\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-img pb-1\">\n                    <a href=\"index.html#features5-7g\"><span mbr-icon class=\"mbr-iconfont mbri-setting\" style=\"color: rgb(159, 159, 159); fill: rgb(159, 159, 159); font-size: 55px;\"></span></a>\n                </div>\n                <div class=\"card-box\">\n                    <h4 class=\"card-title py-0 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-img\"><a href=\"index.html#features5-74\" class=\"text-danger\"></a><a href=\"index.html#features5-7g\">Application Tests⬇︎</a></h4>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                       All sites you make with Mobirise are mobile-friendly. You don't have to create a special mobile version of your site.</p>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-16 col-md-3\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-img pb-1\">\n                    <a href=\"index.html#features5-7h\"><span mbr-icon class=\"mbr-iconfont imind-library\" style=\"color: rgb(159, 159, 159); fill: rgb(159, 159, 159); font-size: 55px;\"></span></a>\n                </div>\n                <div class=\"card-box\">\n                    <h4 class=\"card-title py-0 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-img\"><a href=\"index.html#features5-7h\" class=\"text-danger\">Libraries⬇︎</a></h4>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                       Mobirise offers many site blocks in several themes, and though these blocks are pre-made, they are flexible. <a href=\"https://mobirise.co\" class=\"text-info\">Learn more...</a>\n                    </p>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-16 col-md-3\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-img pb-1\">\n                    <a href=\"index.html#features5-7i\"><span mbr-icon class=\"mbr-iconfont icon54-v1-brain\" style=\"color: rgb(159, 159, 159); fill: rgb(159, 159, 159); font-size: 55px;\"></span></a>\n                </div>\n                <div class=\"card-box mbr-fonts-style\">\n                    <h4 class=\"card-title py-0\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-img\"><a href=\"index.html#features5-7i\" class=\"text-danger\">Brain Exercises⬇︎</a></h4>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                       Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app. <a href=\"https://mobirise.co\" class=\"text-info\">Learn more...</a>\n                    </p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "features5-7g",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
@@ -2571,7 +2601,7 @@
             }
           },
           "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#f9f9f9\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-14 col-md-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article><p><span style=\"font-size: 1.1rem;\">The patio garden (shown above) was one project used to test almost all the apps: Action Generator <i>(personal time and task documentation)</i>, Bug Genie <i>(project coordination/planning)</i>, Feng <i>(task progress communication)</i>, Piwigo (<i>task photo documentation)</i>, and SketchUp <i>(3d modeling)</i>. &nbsp;As time permits, more projects listed below will be featured like the patio above, and in much greater detail, to demonstrate how the apps where used to increase the quantity and quality of work that can be accomplished with the aid of these task planning, communication, documentation, illustration, etc. apps.</span><br></p></div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#f9f9f9\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-14 col-md-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article><p><span style=\"font-size: 1.1rem;\">The patio garden (shown above) was one project used to test almost all the apps: Action Generator <i>(personal time and task documentation)</i>, Bug Genie <i>(project coordination/planning)</i>, Feng <i>(task progress communication)</i>, Piwigo (<i>task photo documentation)</i>, and SketchUp <i>(3d modeling)</i>. &nbsp;As time permits, more projects listed below will be featured like the patio above, and in much greater detail, to demonstrate how the apps where used to increase the quantity and quality of work that can be accomplish with the aid of these task planning, communication, documentation, illustration, etc. apps.</span><br></p></div>\n        </div>\n    </div>\n</section>",
           "_anchor": "content1-8e",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
@@ -2929,7 +2959,7 @@
                 "title": "",
                 "customStyle1": "display-2",
                 "caption": "Part 1 |&nbsp;14:29",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Responsive",
@@ -2981,19 +3011,32 @@
                 "title": "",
                 "customStyle1": "display-2",
                 "caption": "5 | 4:29",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019225-205592019-2-2-8-58-46.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019225-205592019-2-2-9-30-34.jpg",
                 "playVideo": true,
-                "videoUrl": "https://youtu.be/aG-s8buQkVo",
-                "image": "@PROJECT_PATH@/assets/images/screen-shot-2019-04-28-at-4.16.52-pm-2000x1250.png",
-                "thumb": "@PROJECT_PATH@/assets/images/screen-shot-2019-04-28-at-4.16.52-pm-2000x1250-800x500.png",
+                "videoUrl": "https://youtu.be/-2_knDHDqSI",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery05.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery05.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "6 | 5:44",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019225-205592019-2-2-8-56-14.jpg",
+                "playVideo": true,
+                "videoUrl": "https://youtu.be/_ORgT6pyNkU",
+                "image": "@PROJECT_PATH@/assets/images/mobirise2019225-205592019-2-2-8-56-14.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mobirise2019225-205592019-2-2-8-56-14-800x450.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-2",
+                "caption": "Part 2 |&nbsp;2:35",
                 "active": false
               }
             ]
