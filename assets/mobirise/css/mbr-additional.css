@@ -1410,7 +1410,7 @@ body {
 }
 .cid-rmZmwZEA9a {
   padding-top: 0px;
-  padding-bottom: 7.5px;
+  padding-bottom: 0px;
   background: linear-gradient(45deg, #f9f9f9, #f9f9f9);
 }
 @media (min-width: 992px) {
@@ -1434,6 +1434,22 @@ body {
   color: #434343;
   text-align: left;
   padding: 0px 7px;
+}
+.cid-rpPJdyx0OZ {
+  padding-top: 0px;
+  padding-bottom: 15px;
+  background-color: #f9f9f9;
+}
+.cid-rpPJdyx0OZ .col-14 {
+  padding: 0px 7px;
+}
+.cid-rpPJdyx0OZ .mbr-text,
+.cid-rpPJdyx0OZ blockquote {
+  color: #767676;
+}
+.cid-rpPJdyx0OZ .mbr-text {
+  color: #434343;
+  text-align: left;
 }
 .cid-rh3vwFQ7qW {
   padding-top: 0px;
