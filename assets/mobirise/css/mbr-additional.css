@@ -1300,11 +1300,31 @@ body {
   background-color: #434343;
   color: #ffffff;
 }
-.jq-selectbox .jq-selectbox__trigger-arrow {
-  border-top-color: contrast(currentColor, #000000, #ffffff, 30%);
+.jq-selectbox .jq-selectbox__trigger-arrow,
+.jq-number__spin.minus:after,
+.jq-number__spin.plus:after {
+  transition: 0.4s;
+  border-top-color: currentColor;
+  border-bottom-color: currentColor;
 }
-.jq-selectbox:hover .jq-selectbox__trigger-arrow {
+.jq-selectbox:hover .jq-selectbox__trigger-arrow,
+.jq-number__spin.minus:hover:after,
+.jq-number__spin.plus:hover:after {
   border-top-color: #434343;
+  border-bottom-color: #434343;
+}
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default,
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current,
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div.xdsoft_current {
+  color: #ffffff !important;
+  background-color: #434343 !important;
+  box-shadow: none!important;
+}
+.xdsoft_datetimepicker .xdsoft_calendar td:hover,
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:hover {
+  color: #ffffff !important;
+  background: #4f4943 !important;
+  box-shadow: none !important;
 }
 .cid-reebBPdjPL {
   padding-top: 97.5px;
@@ -1435,21 +1455,57 @@ body {
   text-align: left;
   padding: 0px 7px;
 }
-.cid-rpPJdyx0OZ {
-  padding-top: 0px;
+.cid-rqolYefxUA {
+  padding-top: 7.5px;
   padding-bottom: 15px;
+  position: relative;
   background-color: #f9f9f9;
 }
-.cid-rpPJdyx0OZ .col-14 {
+.cid-rqolYefxUA .col-12 {
   padding: 0px 7px;
 }
-.cid-rpPJdyx0OZ .mbr-text,
-.cid-rpPJdyx0OZ blockquote {
+.cid-rqolYefxUA .card {
+  border-radius: 0px;
+  margin-bottom: -1px;
+}
+.cid-rqolYefxUA .card .card-header {
+  border-radius: 0px;
+  border: 0px;
+  padding: 0px;
+  background-color: transparent;
+}
+.cid-rqolYefxUA .card .card-header a.panel-title {
+  margin-bottom: 0;
+  font-style: normal;
+  font-weight: 500;
+  display: block;
+  text-decoration: none !important;
+  margin-top: -1px;
+  line-height: normal;
+}
+.cid-rqolYefxUA .card .card-header a.panel-title:focus {
+  text-decoration: none !important;
+}
+.cid-rqolYefxUA .card .card-header a.panel-title h4 {
+  padding: 0rem 0rem .8rem 0rem;
+  border: 0px solid #dfdfdf;
+  margin-bottom: 0;
+}
+.cid-rqolYefxUA .card .card-header a.panel-title h4 .sign {
+  padding-right: 1rem;
+}
+.cid-rqolYefxUA .card .panel-body {
   color: #767676;
 }
-.cid-rpPJdyx0OZ .mbr-text {
+.cid-rqolYefxUA H4 {
   color: #434343;
   text-align: left;
+}
+.cid-rqolYefxUA .panel-text {
+  color: #434343;
+}
+.cid-rqolYefxUA SPAN {
+  color: #888888;
 }
 .cid-rh3vwFQ7qW {
   padding-top: 0px;
