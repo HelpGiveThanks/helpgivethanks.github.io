@@ -119,7 +119,7 @@
     "sitemapSwitcher": false,
     "cssOptimize": false,
     "lazyLoad": true,
-    "lazyType": "blur"
+    "lazyType": "nothing"
   },
   "pages": {
     "index.html": {
