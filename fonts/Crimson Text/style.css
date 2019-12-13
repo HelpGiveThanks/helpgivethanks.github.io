@@ -1,0 +1,42 @@
+@font-face {
+   font-family: 'Crimson Text';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 600;
+   src: url('file:///Users/Zeno/Documents/HelpGiveThanks/helpgivethanks.github.io//fonts/Crimson Text/600.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Crimson Text';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 700;
+   src: url('file:///Users/Zeno/Documents/HelpGiveThanks/helpgivethanks.github.io//fonts/Crimson Text/700.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Crimson Text';
+   font-style: regular;
+   font-display: swap;
+   font-weight: 400;
+   src: url('file:///Users/Zeno/Documents/HelpGiveThanks/helpgivethanks.github.io//fonts/Crimson Text/regular.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Crimson Text';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 400;
+   src: url('file:///Users/Zeno/Documents/HelpGiveThanks/helpgivethanks.github.io//fonts/Crimson Text/italic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Crimson Text';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 600;
+   src: url('file:///Users/Zeno/Documents/HelpGiveThanks/helpgivethanks.github.io//fonts/Crimson Text/600italic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Crimson Text';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 700;
+   src: url('file:///Users/Zeno/Documents/HelpGiveThanks/helpgivethanks.github.io//fonts/Crimson Text/700italic.ttf') format('truetype');
+}
