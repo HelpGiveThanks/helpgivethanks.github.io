@@ -118,7 +118,7 @@
     "": "on",
     "sitemapSwitcher": false,
     "cssOptimize": false,
-    "lazyLoad": true,
+    "lazyLoad": false,
     "lazyType": "nothing"
   },
   "pages": {
