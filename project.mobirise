@@ -119,9 +119,7 @@
     "sitemapSwitcher": false,
     "cssOptimize": false,
     "lazyLoad": false,
-    "lazyType": "nothing",
-    "publishType": "local",
-    "publishPath": "file:///Users/Zeno/Documents"
+    "lazyType": "nothing"
   },
   "pages": {
     "index.html": {
@@ -5110,7 +5108,7 @@
             "gallery": [
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191026_1449552019-10-3_15-26-59.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191026-1449552019-10-3-15-26-59.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/BXcFEhl7ynM",
                 "image": "@PROJECT_PATH@/assets/images/before-1576x887.jpg",
@@ -5123,7 +5121,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191026_1449552019-10-3_15-25-52.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191026-1449552019-10-3-15-25-52.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/_ff9tQuUzcw",
                 "image": "@PROJECT_PATH@/assets/images/planforgarden-2000x1147.png",
@@ -5136,7 +5134,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191026_1449552019-10-3_15-30-7.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191026-1449552019-10-3-15-30-7.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/RFV8IkY52iY",
                 "image": "@PROJECT_PATH@/assets/images/lightedgarden-2000x1126.jpg",
@@ -5149,7 +5147,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191026_1449552019-10-3_16-14-23.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191026-1449552019-10-3-16-14-23.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/L_uW0_OvEkk",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
@@ -5514,7 +5512,7 @@
             "gallery": [
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191030_1337532019-10-6_13-42-51.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191030-1337532019-10-6-13-42-51.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/9X68dm92HVI",
                 "image": "@PROJECT_PATH@/assets/images/planforgarden-2000x1147.png",
@@ -5527,7 +5525,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191030_1337532019-10-6_13-44-25.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191030-1337532019-10-6-13-44-25.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/XBmJay_qdNc",
                 "image": "@PROJECT_PATH@/assets/images/before-1576x887.jpg",
@@ -5540,7 +5538,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191029_1253182019-10-5_16-26-46.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191029-1253182019-10-5-16-26-46.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/Kn5JRgz3W0o",
                 "image": "@PROJECT_PATH@/assets/images/screen-shot-2019-10-27-at-9.54.18-am.png",
@@ -5553,7 +5551,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201909_1043542019-0-3_19-27-3.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201909-1043542019-0-3-19-27-3.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/SF242mxtZN8",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
@@ -5765,7 +5763,7 @@
             "gallery": [
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191029_1253182019-10-5_16-31-52.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191029-1253182019-10-5-16-31-52.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/BoRUrWcdkQ4",
                 "image": "@PROJECT_PATH@/assets/images/before-1576x887.jpg",
@@ -5778,7 +5776,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191030_142272019-10-6_14-15-48.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191030-142272019-10-6-14-15-48.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/gvpItH_34sM",
                 "image": "@PROJECT_PATH@/assets/images/planforgarden-2000x1147.png",
@@ -5791,7 +5789,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201909_1043542019-0-3_18-59-34.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201909-1043542019-0-3-18-59-34.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/hmpVOUrLqq8",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
@@ -5804,7 +5802,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201909_2322142019-0-4_11-18-38.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201909-2322142019-0-4-11-18-38.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/HYzrdn7YLCM",
                 "image": "@PROJECT_PATH@/assets/images/screen-shot-2019-10-27-at-9.54.18-am.png",
@@ -5961,7 +5959,7 @@
             "gallery": [
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191029_1253182019-10-5_16-13-46.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191029-1253182019-10-5-16-13-46.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/1g2Ht0hdFnY",
                 "image": "@PROJECT_PATH@/assets/images/before-1576x887.jpg",
@@ -5974,7 +5972,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191029_1253182019-10-5_16-14-53.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191029-1253182019-10-5-16-14-53.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/OlLFK8oSNEM",
                 "image": "@PROJECT_PATH@/assets/images/planforgarden-2000x1147.png",
@@ -5987,7 +5985,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191029_1253182019-10-5_16-18-26.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191029-1253182019-10-5-16-18-26.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/sod-eJBf9Y0",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
@@ -6000,7 +5998,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191029_1253182019-10-5_16-22-41.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191029-1253182019-10-5-16-22-41.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/BZoKfap4g4w",
                 "image": "@PROJECT_PATH@/assets/images/screen-shot-2019-10-27-at-9.54.18-am.png",
@@ -6157,7 +6155,7 @@
             "gallery": [
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191029_1253182019-10-5_16-33-28.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191029-1253182019-10-5-16-33-28.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/vjHTDY2ECRU",
                 "image": "@PROJECT_PATH@/assets/images/screen-shot-2019-08-20-at-5.25.35-pm.png",
@@ -6170,7 +6168,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191029_1253182019-10-5_16-44-15.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191029-1253182019-10-5-16-44-15.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/aVbmDfTv1nc",
                 "image": "@PROJECT_PATH@/assets/images/untitled.png",
@@ -6183,7 +6181,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191029_1253182019-10-5_16-36-9.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191029-1253182019-10-5-16-36-9.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/s8FePIjp0ug",
                 "image": "@PROJECT_PATH@/assets/images/kahoot4.png",
@@ -6196,7 +6194,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191029_1253182019-10-5_16-38-34.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191029-1253182019-10-5-16-38-34.jpg",
                 "playVideo": true,
                 "videoUrl": "https://vimeo.com/106089707",
                 "image": "@PROJECT_PATH@/assets/images/kahoot4.png",
@@ -6353,7 +6351,7 @@
             "gallery": [
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019111_1421292019-11-0_14-55-35.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019111-1421292019-11-0-14-55-35.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/oSRVxhBYoC0",
                 "image": "@PROJECT_PATH@/assets/images/before-1576x887.jpg",
@@ -6366,7 +6364,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019111_145892019-11-0_14-59-10.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019111-145892019-11-0-14-59-10.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/RmQkh-YRJko",
                 "image": "@PROJECT_PATH@/assets/images/lightedgarden-2000x1126.jpg",
@@ -6379,7 +6377,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191026_1449552019-10-3_15-25-52.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191026-1449552019-10-3-15-25-52.jpg",
                 "playVideo": false,
                 "videoUrl": "https://youtu.be/_ff9tQuUzcw",
                 "image": "@PROJECT_PATH@/assets/images/euthanasiepropaganda.jpg",
@@ -6392,7 +6390,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019111_145892019-11-0_14-59-48.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019111-145892019-11-0-14-59-48.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/qyrgieXgZPw",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
@@ -6715,7 +6713,7 @@
             "gallery": [
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019231_1145192019-2-0_12-22-55.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019231-1145192019-2-0-12-22-55.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/y3jYVe1RGaU",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
@@ -6728,7 +6726,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019112_185182019-11-1_20-23-7.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019112-185182019-11-1-20-23-7.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/lgYKjalxOZY",
                 "image": "@PROJECT_PATH@/assets/images/planforgarden-2000x1147.png",
@@ -6741,7 +6739,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019112_185182019-11-1_18-43-48.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019112-185182019-11-1-18-43-48.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/wJyUtbn0O5Y",
                 "image": "@PROJECT_PATH@/assets/images/before-1576x887.jpg",
@@ -6754,7 +6752,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019113_184112019-11-2_19-3-17.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019113-184112019-11-2-19-3-17.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/pPC1MZ-xAu4",
                 "image": "@PROJECT_PATH@/assets/images/maya.jpg",
@@ -6767,7 +6765,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019112_185182019-11-1_19-59-11.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019112-185182019-11-1-19-59-11.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/Aucli8Gii5k",
                 "image": "@PROJECT_PATH@/assets/images/screen-shot-2019-11-30-at-5.21.28-pm.png",
@@ -6780,7 +6778,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019114_1638522019-11-3_17-52-33.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019114-1638522019-11-3-17-52-33.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/0bRocfcPhHU",
                 "image": "@PROJECT_PATH@/assets/images/screen-shot-2019-12-01-at-3.21.12-pm.png",
@@ -6793,7 +6791,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019112_185182019-11-1_19-56-55.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019112-185182019-11-1-19-56-55.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/0e33DPiOthU",
                 "image": "@PROJECT_PATH@/assets/images/screen-shot-2019-11-30-at-5.21.28-pm.png",
@@ -6806,7 +6804,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019112_185182019-11-1_19-8-30.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019112-185182019-11-1-19-8-30.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/6wy1CP-mM08",
                 "image": "@PROJECT_PATH@/assets/images/screen-shot-2019-11-30-at-5.21.28-pm.png",
@@ -7652,7 +7650,7 @@
             "gallery": [
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019112_185182019-11-1_20-44-25.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019112-185182019-11-1-20-44-25.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/we4ZzjKxFHM",
                 "image": "@PROJECT_PATH@/assets/images/before-1576x887.jpg",
@@ -7665,7 +7663,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019112_185182019-11-1_20-47-56.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019112-185182019-11-1-20-47-56.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/n6W_FzjaKlw",
                 "image": "@PROJECT_PATH@/assets/images/planforgarden-2000x1147.png",
@@ -7678,7 +7676,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019112_185182019-11-1_20-46-44.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019112-185182019-11-1-20-46-44.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/ftzoa2dw3CQ",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
@@ -7691,7 +7689,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019112_185182019-11-1_20-50-17.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019112-185182019-11-1-20-50-17.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/OEUoqmeO5hs",
                 "image": "@PROJECT_PATH@/assets/images/screen-shot-2019-10-27-at-9.54.18-am.png",

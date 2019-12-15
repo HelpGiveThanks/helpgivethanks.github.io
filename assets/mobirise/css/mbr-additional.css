@@ -3269,7 +3269,7 @@ section.lazy-placeholder:after {
 }
 .cid-rJQ7irlG3U H4 {
   color: #767676;
-  text-align: center;
+  text-align: left;
 }
 .cid-rJQ7irlG3U P {
   color: #767676;
@@ -3368,6 +3368,7 @@ section.lazy-placeholder:after {
 .cid-rK7bMURAux .mbr-text {
   color: #565656;
   text-align: left;
+  padding-bottom: .5rem;
 }
 .cid-rK7bMURAux .col-md-12 {
   padding: 0px 7px;
@@ -3786,6 +3787,7 @@ section.lazy-placeholder:after {
 }
 .cid-rJQ7iwn94f .mbr-text {
   color: #565656;
+  padding-top: .5rem;
 }
 .cid-rK7OkTeTRR {
   padding-top: 0px;
@@ -4120,6 +4122,7 @@ section.lazy-placeholder:after {
   color: #565656;
   margin-top: -0.5rem;
   text-align: left;
+  padding-left: 1rem;
 }
 .cid-rJQ7iC45jT .col-14 {
   padding: 0px 7px;
@@ -4200,6 +4203,7 @@ section.lazy-placeholder:after {
   color: #565656;
   margin-top: -0.5rem;
   text-align: left;
+  padding-right: 1rem;
   padding: 0px 7px;
 }
 .cid-rJQ7iEA3F1 {
