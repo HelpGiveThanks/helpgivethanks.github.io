@@ -119,7 +119,9 @@
     "sitemapSwitcher": false,
     "cssOptimize": false,
     "lazyLoad": false,
-    "lazyType": "nothing"
+    "lazyType": "nothing",
+    "publishType": "local",
+    "publishPath": "file:///Users/Zeno/Documents/HelpGiveThanks/helpgivethanks.github.io"
   },
   "pages": {
     "index.html": {
@@ -325,7 +327,7 @@
             }
           },
           "_name": "header7",
-          "_customHTML": "<section class=\"header7\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\".5\" value=\"0\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Media On Right/Left\" name=\"reverseContent\">\n\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"110\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background5.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#f9f9f9\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"color\" name=\"color2\" title=\"Color 2\" value=\"#f9f9f9\" condition=\"bg.type=='color'\" selected>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n\n            <div class=\"media-content align-right\">\n                <h1 class=\"mbr-section-title mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Introduction</h1>\n                <div class=\"mbr-section-text mbr-white pb-0\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">&nbsp;The video \"Can a robot pass a university entrance exam? &nbsp;provides compelling evidence for why human's need to change FROM managed, emotionally volital, tribal individuals<i>&nbsp;(do what you are told and do not question the boss, parent, teacher, etc.)</i>&nbsp;TO self-managed, emotionally self-regulated, critically thinking, diversity appreciating human beings; BECAUSE in the A.I. Era the availability of jobs where bosses tell you what to do will all be given to computers. &nbsp;The only jobs available for people will require us to think for ourselves and participate in cooperative, peer relationships.</p>\n                </div>\n                <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                        <a class=\"btn btn-md btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                        <a class=\"btn btn-md btn-white-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n\n           <div>\n               <div style=\"margin-bottom: -.5rem;\"><iframe width=\"261px\" height=\"100%\" background=\"#333\" src=\"https://www.youtube.com/embed/BXcFEhl7ynM\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n               </div>\n               <div style=\"text-align: center; width: 261px; background: #333; color: white;  line-height: 1rem; padding: 0.1rem 0rem 0.1rem 0rem;\"><span class=\"mbr-gallery-title mbr-fonts-style display-4\" style=\"font-size: .9em;\">Can a robot pass a university entrance exam? | 14 min</span>\n               </div>\n          </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header7\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\".5\" value=\"0\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Media On Right/Left\" name=\"reverseContent\">\n\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"110\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background5.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#f9f9f9\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"color\" name=\"color2\" title=\"Color 2\" value=\"#f9f9f9\" condition=\"bg.type=='color'\" selected>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n\n            <div class=\"media-content align-right\">\n                <h1 class=\"mbr-section-title mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Introduction</h1>\n                <div class=\"mbr-section-text mbr-white pb-0\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">&nbsp;The video \"Can a robot pass a university entrance exam? &nbsp;provides compelling evidence for why human's need to change FROM managed, emotionally volital, tribal individuals<i>&nbsp;(do what you are told and do not question the boss, parent, teacher, etc.)</i>&nbsp;TO self-managed, emotionally self-regulated, critically thinking, diversity appreciating human beings; BECAUSE in the A.I. Era the availability of jobs where bosses tell you what to do will all be given to computers. &nbsp;The only jobs available for people will require us to think for ourselves and participate in cooperative, peer relationships.</p>\n                </div>\n                <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                        <a class=\"btn btn-md btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                        <a class=\"btn btn-md btn-white-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n\n           <div>\n               <div style=\"margin-bottom: -.5rem;\"><iframe width=\"261px\" height=\"100%\" background=\"#333\" src=\"https://www.youtube.com/embed/BXcFEhl7ynM\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n               </div>\n               <div style=\"text-align: center; width: 261px; background: #333; color: white;  line-height: 1rem; padding: 0.1rem 0rem 0.1rem 0rem;\"><span class=\"mbr-gallery-title mbr-fonts-style display-4\" style=\"font-size: .9em;\">Can a robot pass a university entrance exam? &nbsp; | &nbsp; 14 min</span>\n               </div>\n          </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "header7-8t",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
@@ -4617,12 +4619,11 @@
             },
             ".mbr-text": {
               "color": "#565656",
-              "padding-top": ".5rem",
-              "padding-bottoms": ".5rem"
+              "padding-top": ".5rem"
             }
           },
           "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#f9f9f9\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-14 col-md-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article><p style=\"font-size: 1.1rem; margin-bottom: 0rem;\"><span style=\"font-size: 1.1rem;\">So, there is a report in the real world, but both writer and readers' brains will never see it. &nbsp;This fact, that human brains have never had, and never will have access to the real world; &nbsp;that essentially hallucinating humans have been living and dealing with fellow hallucinating humans for all of our species existence, falsely believing that each person sees what everyone else sees, <u>this fact</u> has profound and amazing implications for our species and for artificial intelligence, like love <i>has to be</i> unconditional and cars <i>can learn</i> to drive themselves, for example, which I will get to shortly. &nbsp;But first, how are our brains creating what seems to be a shared experience of a single object: this report? &nbsp;The late <i>really-should-be-awarded-a-Nobel-Prize</i> Walter Freeman, formerly of the The Freeman Laboratory&nbsp;</span><span style=\"font-size: 1.1rem;\">for Nonlinear Neurodynamics in the&nbsp;</span><span style=\"font-size: 1.1rem;\">Department of Molecular &amp; Cell Biology</span><span style=\"font-size: 1.1rem;\">&nbsp;</span><span style=\"font-size: 1.1rem;\">at UC Berkeley, spent much of his career figuring this out, both to explain biological brains' ability to create a competely realistic hallucination of the real world without ever experiencing it, and to duplicate this feat in artificially intelligent computers, which can now, all-by-themselves run factories, wharehouses, ports, drive cars, write essays, translate speech-into-text, compose new music in various genres, etc. &nbsp;Here is a brief summary of the brain's action-perception cycle that Freeman spent much of his career researching, including a relatively simple diagram, which is \"... simplified deliberately by lumping together many subsidiary components and&nbsp;</span><span style=\"font-size: 1.1rem;\">lesser loops, in order to show the forest, not the trees [Freeman 1998, p8].\"</span></p></div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#f9f9f9\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-14 col-md-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article><p style=\"font-size: 1.1rem; margin-bottom: 0rem;\"><span style=\"font-size: 1.1rem;\">So, there is a report in the real world, but both writer and readers' brains will never see it. &nbsp;This fact, that human brains have never had, and never will have access to the real world; &nbsp;that essentially hallucinating humans have been living and dealing with fellow hallucinating humans for all of our species existence, falsely believing that each person sees what everyone else sees, <u>this fact</u> has profound and amazing implications for our species and for artificial intelligence, like love <i>has to be</i> unconditional and cars <i>can learn</i> to drive themselves, for example, which I will get to shortly. &nbsp;But first, how are our brains creating what seems to be a shared experience of a single object: this report? &nbsp;The late <i>really-should-be-awarded-a-Nobel-Prize</i> Walter Freeman, formerly of the The Freeman Laboratory&nbsp;</span><span style=\"font-size: 1.1rem;\">for Nonlinear Neurodynamics in the&nbsp;</span><span style=\"font-size: 1.1rem;\">Department of Molecular &amp; Cell Biology</span><span style=\"font-size: 1.1rem;\">&nbsp;</span><span style=\"font-size: 1.1rem;\">at UC Berkeley, spent much of his career figuring this out, both to explain biological brains' ability to create a competely realistic hallucination of the real world without ever experiencing it, and to duplicate this feat in artificially intelligent computers, which can now, all-by-themselves run factories, wharehouses, ports, drive cars, write essays, translate speech-into-text, compose new music in various genres, etc. &nbsp;Here is a brief summary of the brain's action-perception cycle that Freeman spent much of his career experimentally researching, including a relatively simple diagram, which is \"... simplified deliberately by lumping together many subsidiary components and&nbsp;</span><span style=\"font-size: 1.1rem;\">lesser loops, in order to show the forest, not the trees [Freeman 1998, p8].\"</span></p></div>\n        </div>\n    </div>\n</section>",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "rJQ7iwn94f",
@@ -4678,13 +4679,11 @@
               "text-align": "left"
             },
             ".col-md-12": {
-              "padding": "0px 7px",
-              "padding-top": ".5rem",
-              "padding-bottoms": ".5rem"
+              "padding": "0px 7px"
             }
           },
           "_name": "content7",
-          "_customHTML": "<section class=\"mbr-section content7\" group=\"Article\">\n          \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->   \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"180\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\"> \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#f9f9f9\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12\" mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">\n                <div class=\"media-container-row\">\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text align-right mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">The action-perception cycle starts at the entorhinal cortex (<b><span style=\"color: #ff0000;\">1</span></b>), which combines inputs from all A) sensory systems (<b><span style=\"color: #ff0000;\">6</span></b>): sight, sound, smell, feel, etc; and B) motor systems (<b><span style=\"color: #ff0000;\">2</span></b>): position of our limbs, torso, neck, head, eyes, etc; with C) the location-and-timestamps of each sensory and motor input-event via the hippocampus (not shown). &nbsp;These combined inputs form something like a frame in a movie. &nbsp;The entorhinal cortex&nbsp;(<b><span style=\"color: #ff0000;\">1</span></b>) creates each frame by sending out action plans to the motor systems (<b><span style=\"color: #ff0000;\">2</span></b>), and predictions to the sensory systems (<b><span style=\"color: #ff0000;\">6</span></b>) of patterns that will form on different sensory receptors (<b><span style=\"color: #ff0000;\">5</span></b>) as a result of each action. &nbsp;Frame-by-frame, the muscles move (<b><span style=\"color: #ff0000;\">3</span></b>) and the sensory receptors (<b><span style=\"color: #ff0000;\">5</span></b>)  — <i>red, green, blue (rgb) light sensitive cones in the eyes, for example</i> — record patterns of stimuli (<b><span style=\"color: #ff0000;\">4</span></b>) impacts that are then processed by the sensory systems (<b><span style=\"color: #ff0000;\">6</span></b>).<br></p>\n                        </div>\n                    </div>\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                     <img src=\"@PROJECT_PATH@/assets/images/freeman-action-perception-cycle.png\" alt=\"Action-Perception Cycle Diagram\" title>  \n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content7\" group=\"Article\">\n          \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->   \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"180\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\"> \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#f9f9f9\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12\" mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">\n                <div class=\"media-container-row\">\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text align-right mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">Brains are all about control in the pursuit of self generated goals like, \"Let's get something to eat!\" Goals that begin to be carried out deep within brains at the entorhinal cortex (<b><span style=\"color: #ff0000;\">1</span></b>). This amazing cortex helps create movie-like frames several times-a-second by combining inputs from all A) sensory systems (<b><span style=\"color: #ff0000;\">6</span></b>): sight, sound, smell, feel, etc; and B) motor systems (<b><span style=\"color: #ff0000;\">2</span></b>): position of our limbs, torso, neck, head, eyes, etc; with C) the location-and-timestamps of each sensory and motor input-event via the hippocampus (not shown). &nbsp;For example, even though a nerve impulse from your toes take far longer to get to your brain than one generated at the same time by touching your nose, the event in reality that occured at the same time, and arrived in reality at different times in your brain is experienced... thantouch your toe and nose simultainously, and thanks to the entorhinal cortex' partnership with the hippocampus, you will feel these touches happening simultainously,..FIX... &nbsp;So, upon generating a goal (<b><span style=\"color: #ff0000;\">1</span></b>), the brain sends out an action plan to the motor systems (<b><span style=\"color: #ff0000;\">2</span></b>), and predictions to the sensory systems (<b><span style=\"color: #ff0000;\">6</span></b>) of what the body's various sensory receptors — light, sound, etc. — will pickup along the way to achieving its goal. &nbsp;<br></p>\n                        </div>\n                    </div>\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                     <img src=\"@PROJECT_PATH@/assets/images/freeman_action-perception_cycle.png\" alt=\"Action-Perception Cycle Diagram\" title>  \n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "content7-cn",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
@@ -4709,12 +4708,11 @@
             },
             ".mbr-text": {
               "color": "#434343",
-              "text-align": "left",
-              "padding-top": ".5rem"
+              "text-align": "left"
             }
           },
           "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#f9f9f9\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-14 col-md-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article><div><span style=\"font-size: 1.1rem;\">These patterns of stimuli&nbsp;receptors hit-and-not-hit (<b><span style=\"color: #ff0000;\">5</span></b>) are faithfully passed on <i>as expected&nbsp;</i>to the first level of neurons in all sensory systems (<b><span style=\"color: #ff0000;\">6</span></b>) — neurons that where primed with pattern predictions (<b><span style=\"color: #ff0000;\">1</span></b>) at the start of the action-perception&nbsp;cycle</span><span style=\"font-size: 1.1rem;\">.&nbsp; And then the unexpected happens! &nbsp; Only the pass/fail information about each prediction is passed on to the next level of neurons in all sensory systems (<b><span style=\"color: #ff0000;\">6</span></b>)! &nbsp;The information about the pattern of receptors hit-and-not-hit (<b><span style=\"color: #ff0000;\">5</span></b>) is completey washed away between the first and second level of neurons in all systems (<b><span style=\"color: #ff0000;\">6</span></b>). &nbsp;<i>NOTE: See references below for links to Freeman's diagrams and explanations of sensory systems' (6) washing-away-information anatomy and physiology: Freeman 1997, Freeman 2001, and Freeman 2011.</i> &nbsp;This discovery at first suprised Freeman, because it meant that brains cannot be using sensory receptors (<b><span style=\"color: #ff0000;\">5</span></b>) to perceive the world. &nbsp;Instead, as he would experimentally discover, our brains use them (<b><span style=\"color: #ff0000;\">5</span></b>) to test the usefulness of its own sensory-receptor predictions (<b><span style=\"color: #ff0000;\">1</span></b>) — predictions (<b><span style=\"color: #ff0000;\">1</span></b>) that we consciously experience (<b><span style=\"color: #ff0000;\">7</span></b>) as, \"the real world.\" &nbsp;</span><span style=\"font-size: 1.1rem;\">\"What the animal knows [</span><b style=\"font-size: 1.1rem;\"><span style=\"color: #ff0000;\">1</span></b><span style=\"font-size: 1.1rem;\">] is only that which it has created [</span><b style=\"font-size: 1.1rem;\"><span style=\"color: #ff0000;\">1</span></b><span style=\"font-size: 1.1rem;\">] within itself,\" notes Walter Freeman at 18min 24sec into my remix of his Poetry of Brains talk below. &nbsp;\"It knows what expectations [</span><b style=\"font-size: 1.1rem;\"><span style=\"color: #ff0000;\">1</span></b><span style=\"font-size: 1.1rem;\">] it has, and it knows the results [</span><b style=\"font-size: 1.1rem;\"><span style=\"color: #ff0000;\">6</span></b><span style=\"font-size: 1.1rem;\">] of its tests [</span><span style=\"font-size: 1.1rem; color: rgb(255, 0, 0);\"><b>2&nbsp;</b>➞&nbsp;<b>6</b></span><span style=\"font-size: 1.1rem;\">], or to put it another way, brains are continually engaged in creating hypotheses [</span><b style=\"font-size: 1.1rem;\"><span style=\"color: #ff0000;\">1</span></b><span style=\"font-size: 1.1rem;\">] and testing [</span><span style=\"font-size: 1.1rem; color: rgb(255, 0, 0);\"><b>2&nbsp;</b>➞&nbsp;<b>6</b></span><span style=\"font-size: 1.1rem;\">] them. &nbsp;And all they can know [</span><b style=\"font-size: 1.1rem;\"><span style=\"color: #ff0000;\">1</span></b><span style=\"font-size: 1.1rem;\">] is what did they hypothesize [</span><b style=\"font-size: 1.1rem;\"><span style=\"color: #ff0000;\">1</span></b><span style=\"font-size: 1.1rem;\">], and what was the result of the test [</span><span style=\"font-size: 1.1rem; color: rgb(255, 0, 0);\"><b>2&nbsp;</b>➞&nbsp;<b>6</b></span><span style=\"font-size: 1.1rem;\">]... [Matson 2013].\"</span><br></div></div>\n        </div>\n    </div>\n        \n    <a name=\"hallucinate\"></a>\n\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#f9f9f9\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-14 col-md-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article><div><span style=\"font-size: 1.1rem;\">The sensory systems (</span><b style=\"font-size: 1.1rem;\"><span style=\"color: #ff0000;\">6</span></b><span style=\"font-size: 1.1rem;\">) now primed with predictions await the arrival of sensory-receptor (<b><span style=\"color: #ff0000;\">5</span></b>) information, but first, the brain's motor plan (</span><b style=\"font-size: 1.1rem;\"><span style=\"color: #ff0000;\">1</span></b><span style=\"font-size: 1.1rem;\">) must be put into action! &nbsp; And, so, the muscles move (</span><b style=\"font-size: 1.1rem;\"><span style=\"color: #ff0000;\">3</span></b><span style=\"font-size: 1.1rem;\">) in search of the predicted stimuli (</span><b style=\"font-size: 1.1rem;\"><span style=\"color: #ff0000;\">4</span></b><span style=\"font-size: 1.1rem;\">) at each milisecond-by-milisecond stage of the plan (</span><b style=\"font-size: 1.1rem;\"><span style=\"color: #ff0000;\">1</span></b><span style=\"font-size: 1.1rem;\">). &nbsp;Thus, several-time-a-second, the muscles move (<b><span style=\"color: #ff0000;\">3</span></b>) and the sensory receptors (</span><b style=\"font-size: 1.1rem;\"><span style=\"color: #ff0000;\">5</span></b><span style=\"font-size: 1.1rem;\">) &nbsp;— </span><i style=\"font-size: 1.1rem;\">red, green, blue (rgb) light sensitive cones in the eyes, for example</i><span style=\"font-size: 1.1rem;\"> — record the environmental impacts (</span><b style=\"font-size: 1.1rem;\"><span style=\"color: #ff0000;\">4</span></b><span style=\"font-size: 1.1rem;\">) on the moving (</span><b style=\"font-size: 1.1rem;\"><span style=\"color: #ff0000;\">3</span></b><span style=\"font-size: 1.1rem;\">) body. &nbsp;The pattern of receptors hit-and not-hit (<b><span style=\"color: #ff0000;\">5</span></b>) is faithfully passed on to the first level of brain tissue in all sensory systems (</span><b style=\"font-size: 1.1rem;\"><span style=\"color: #ff0000;\">6</span></b><span style=\"font-size: 1.1rem;\">), specifically those neurons connected directly to each sensory receptor (</span><b style=\"font-size: 1.1rem;\"><span style=\"color: #ff0000;\">5</span></b><span style=\"font-size: 1.1rem;\">) and primed with the brain's prediction (<b><span style=\"color: #ff0000;\">1</span></b>). &nbsp;<i>NOTE: See references below for Freeman's diagrams and explanations of all sensory systems' (<b><span style=\"color: #ff0000;\">6</span></b>) anatomy and physiology: Freeman 1997, Freeman 2001, and Freeman 2011</i>. &nbsp;All that gets passed on from the first to the second-level neurons in each sensory system (<b><span style=\"color: #ff0000;\">6</span></b>) is the statistical pass/fail information&nbsp;about the predictions: <i>e.g., how many receptor predictions where correct? </i>&nbsp;The information about the pattern of receptors hit-and-not-hit (<b><span style=\"color: #ff0000;\">5</span></b>) is washed away between the first and second level of neurons at this stage (<b><span style=\"color: #ff0000;\">6</span></b>). &nbsp;This discovery at first suprised Freeman, because it meant that brains cannot be using sensory receptors (<b><span style=\"color: #ff0000;\">5</span></b>) to perceive the world! &nbsp;Instead, as he would experimentally discover, they use them (<b><span style=\"color: #ff0000;\">5</span></b>) to test the usefulness of the brain's own sensory-receptor predictions (<b><span style=\"color: #ff0000;\">1</span></b>), which are the hallucinations (<b><span style=\"color: #ff0000;\">1</span></b>) that we consciously experience (<b><span style=\"color: #ff0000;\">7</span></b>) as \"the real world\" (<b><span style=\"color: #ff0000;\">1</span></b>) after they have been tested (<b><span style=\"color: #ff0000;\">6</span></b>). &nbsp;In my remix of Freeman's Poetry of Brains talk below, he says, \"What the animal knows [<b><span style=\"color: #ff0000;\">1</span></b>] is only that which it has created [<b><span style=\"color: #ff0000;\">1</span></b>] within itself. &nbsp;It knows what expectations [<b><span style=\"color: #ff0000;\">1</span></b>] it has, and it knows the results [<b><span style=\"color: #ff0000;\">6</span></b>] of its tests [<span style=\"color: rgb(255, 0, 0);\"><b>2&nbsp;</b>➞&nbsp;<b>6</b></span>], or to put it another way, brains are continually engaged in creating hypotheses [<b><span style=\"color: #ff0000;\">1</span></b>] and testing [<span style=\"color: rgb(255, 0, 0);\"><b>2&nbsp;</b>➞&nbsp;<b>6</b></span>] them. &nbsp;And all they can know [<b><span style=\"color: #ff0000;\">1</span></b>] is what did they hypothesize [<b><span style=\"color: #ff0000;\">1</span></b>], and what was the result of the test [<span style=\"color: rgb(255, 0, 0);\"><b>2&nbsp;</b>➞&nbsp;<b>6</b></span>]... [Matson 2013].\"</span></div></div>\n        </div>\n    </div>\n        \n    <a name=\"hallucinate\"></a>\n\n</section>",
           "_anchor": "content1-co",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
@@ -5112,7 +5110,7 @@
             "gallery": [
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191026-1449552019-10-3-15-26-59.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191026_1449552019-10-3_15-26-59.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/BXcFEhl7ynM",
                 "image": "@PROJECT_PATH@/assets/images/before-1576x887.jpg",
@@ -5125,7 +5123,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191026-1449552019-10-3-15-25-52.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191026_1449552019-10-3_15-25-52.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/_ff9tQuUzcw",
                 "image": "@PROJECT_PATH@/assets/images/planforgarden-2000x1147.png",
@@ -5138,7 +5136,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191026-1449552019-10-3-15-30-7.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191026_1449552019-10-3_15-30-7.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/RFV8IkY52iY",
                 "image": "@PROJECT_PATH@/assets/images/lightedgarden-2000x1126.jpg",
@@ -5151,7 +5149,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191026-1449552019-10-3-16-14-23.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191026_1449552019-10-3_16-14-23.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/L_uW0_OvEkk",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
@@ -5516,7 +5514,7 @@
             "gallery": [
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191030-1337532019-10-6-13-42-51.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191030_1337532019-10-6_13-42-51.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/9X68dm92HVI",
                 "image": "@PROJECT_PATH@/assets/images/planforgarden-2000x1147.png",
@@ -5529,7 +5527,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191030-1337532019-10-6-13-44-25.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191030_1337532019-10-6_13-44-25.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/XBmJay_qdNc",
                 "image": "@PROJECT_PATH@/assets/images/before-1576x887.jpg",
@@ -5542,7 +5540,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191029-1253182019-10-5-16-26-46.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191029_1253182019-10-5_16-26-46.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/Kn5JRgz3W0o",
                 "image": "@PROJECT_PATH@/assets/images/screen-shot-2019-10-27-at-9.54.18-am.png",
@@ -5555,7 +5553,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201909-1043542019-0-3-19-27-3.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201909_1043542019-0-3_19-27-3.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/SF242mxtZN8",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
@@ -5767,7 +5765,7 @@
             "gallery": [
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191029-1253182019-10-5-16-31-52.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191029_1253182019-10-5_16-31-52.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/BoRUrWcdkQ4",
                 "image": "@PROJECT_PATH@/assets/images/before-1576x887.jpg",
@@ -5780,7 +5778,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191030-142272019-10-6-14-15-48.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191030_142272019-10-6_14-15-48.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/gvpItH_34sM",
                 "image": "@PROJECT_PATH@/assets/images/planforgarden-2000x1147.png",
@@ -5793,7 +5791,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201909-1043542019-0-3-18-59-34.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201909_1043542019-0-3_18-59-34.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/hmpVOUrLqq8",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
@@ -5806,7 +5804,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201909-2322142019-0-4-11-18-38.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201909_2322142019-0-4_11-18-38.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/HYzrdn7YLCM",
                 "image": "@PROJECT_PATH@/assets/images/screen-shot-2019-10-27-at-9.54.18-am.png",
@@ -5963,7 +5961,7 @@
             "gallery": [
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191029-1253182019-10-5-16-13-46.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191029_1253182019-10-5_16-13-46.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/1g2Ht0hdFnY",
                 "image": "@PROJECT_PATH@/assets/images/before-1576x887.jpg",
@@ -5976,7 +5974,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191029-1253182019-10-5-16-14-53.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191029_1253182019-10-5_16-14-53.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/OlLFK8oSNEM",
                 "image": "@PROJECT_PATH@/assets/images/planforgarden-2000x1147.png",
@@ -5989,7 +5987,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191029-1253182019-10-5-16-18-26.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191029_1253182019-10-5_16-18-26.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/sod-eJBf9Y0",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
@@ -6002,7 +6000,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191029-1253182019-10-5-16-22-41.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191029_1253182019-10-5_16-22-41.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/BZoKfap4g4w",
                 "image": "@PROJECT_PATH@/assets/images/screen-shot-2019-10-27-at-9.54.18-am.png",
@@ -6159,7 +6157,7 @@
             "gallery": [
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191029-1253182019-10-5-16-33-28.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191029_1253182019-10-5_16-33-28.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/vjHTDY2ECRU",
                 "image": "@PROJECT_PATH@/assets/images/screen-shot-2019-08-20-at-5.25.35-pm.png",
@@ -6172,7 +6170,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191029-1253182019-10-5-16-44-15.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191029_1253182019-10-5_16-44-15.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/aVbmDfTv1nc",
                 "image": "@PROJECT_PATH@/assets/images/untitled.png",
@@ -6185,7 +6183,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191029-1253182019-10-5-16-36-9.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191029_1253182019-10-5_16-36-9.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/s8FePIjp0ug",
                 "image": "@PROJECT_PATH@/assets/images/kahoot4.png",
@@ -6198,7 +6196,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191029-1253182019-10-5-16-38-34.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191029_1253182019-10-5_16-38-34.jpg",
                 "playVideo": true,
                 "videoUrl": "https://vimeo.com/106089707",
                 "image": "@PROJECT_PATH@/assets/images/kahoot4.png",
@@ -6355,7 +6353,7 @@
             "gallery": [
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019111-1421292019-11-0-14-55-35.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019111_1421292019-11-0_14-55-35.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/oSRVxhBYoC0",
                 "image": "@PROJECT_PATH@/assets/images/before-1576x887.jpg",
@@ -6368,7 +6366,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019111-145892019-11-0-14-59-10.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019111_145892019-11-0_14-59-10.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/RmQkh-YRJko",
                 "image": "@PROJECT_PATH@/assets/images/lightedgarden-2000x1126.jpg",
@@ -6381,7 +6379,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191026-1449552019-10-3-15-25-52.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191026_1449552019-10-3_15-25-52.jpg",
                 "playVideo": false,
                 "videoUrl": "https://youtu.be/_ff9tQuUzcw",
                 "image": "@PROJECT_PATH@/assets/images/euthanasiepropaganda.jpg",
@@ -6394,7 +6392,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019111-145892019-11-0-14-59-48.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019111_145892019-11-0_14-59-48.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/qyrgieXgZPw",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
@@ -6717,7 +6715,7 @@
             "gallery": [
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019231-1145192019-2-0-12-22-55.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019231_1145192019-2-0_12-22-55.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/y3jYVe1RGaU",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
@@ -6730,7 +6728,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019112-185182019-11-1-20-23-7.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019112_185182019-11-1_20-23-7.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/lgYKjalxOZY",
                 "image": "@PROJECT_PATH@/assets/images/planforgarden-2000x1147.png",
@@ -6743,7 +6741,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019112-185182019-11-1-18-43-48.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019112_185182019-11-1_18-43-48.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/wJyUtbn0O5Y",
                 "image": "@PROJECT_PATH@/assets/images/before-1576x887.jpg",
@@ -6756,7 +6754,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019113-184112019-11-2-19-3-17.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019113_184112019-11-2_19-3-17.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/pPC1MZ-xAu4",
                 "image": "@PROJECT_PATH@/assets/images/maya.jpg",
@@ -6769,7 +6767,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019112-185182019-11-1-19-59-11.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019112_185182019-11-1_19-59-11.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/Aucli8Gii5k",
                 "image": "@PROJECT_PATH@/assets/images/screen-shot-2019-11-30-at-5.21.28-pm.png",
@@ -6782,7 +6780,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019114-1638522019-11-3-17-52-33.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019114_1638522019-11-3_17-52-33.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/0bRocfcPhHU",
                 "image": "@PROJECT_PATH@/assets/images/screen-shot-2019-12-01-at-3.21.12-pm.png",
@@ -6795,7 +6793,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019112-185182019-11-1-19-56-55.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019112_185182019-11-1_19-56-55.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/0e33DPiOthU",
                 "image": "@PROJECT_PATH@/assets/images/screen-shot-2019-11-30-at-5.21.28-pm.png",
@@ -6808,7 +6806,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019112-185182019-11-1-19-8-30.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019112_185182019-11-1_19-8-30.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/6wy1CP-mM08",
                 "image": "@PROJECT_PATH@/assets/images/screen-shot-2019-11-30-at-5.21.28-pm.png",
@@ -7654,7 +7652,7 @@
             "gallery": [
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019112-185182019-11-1-20-44-25.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019112_185182019-11-1_20-44-25.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/we4ZzjKxFHM",
                 "image": "@PROJECT_PATH@/assets/images/before-1576x887.jpg",
@@ -7667,7 +7665,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019112-185182019-11-1-20-47-56.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019112_185182019-11-1_20-47-56.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/n6W_FzjaKlw",
                 "image": "@PROJECT_PATH@/assets/images/planforgarden-2000x1147.png",
@@ -7680,7 +7678,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019112-185182019-11-1-20-46-44.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019112_185182019-11-1_20-46-44.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/ftzoa2dw3CQ",
                 "image": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
@@ -7693,7 +7691,7 @@
               },
               {
                 "tags": "Awesome",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019112-185182019-11-1-20-50-17.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019112_185182019-11-1_20-50-17.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/OEUoqmeO5hs",
                 "image": "@PROJECT_PATH@/assets/images/screen-shot-2019-10-27-at-9.54.18-am.png",
